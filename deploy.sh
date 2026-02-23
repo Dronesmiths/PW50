@@ -9,7 +9,7 @@ fi
 source .aws-deploy-info
 
 echo "Syncing files to S3 bucket: $BUCKET_NAME..."
-aws s3 sync . "s3://$BUCKET_NAME/" --exclude ".git/*" --exclude "*.sh" --exclude "cloudfront-config.json" --exclude ".aws-deploy-info" --profile "$PROFILE"
+aws s3 sync . "s3://$BUCKET_NAME/" --exclude ".git/*" --exclude "*.sh" --exclude "*.csv" --exclude "*.json" --exclude ".aws-deploy-info" --exclude ".DS_Store" --profile "$PROFILE"
 
 echo "Invalidating CloudFront cache for distribution: $DIST_ID..."
 aws cloudfront create-invalidation --distribution-id "$DIST_ID" --paths "/*" --profile "$PROFILE"

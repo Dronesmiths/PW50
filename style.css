@@ -2,15 +2,19 @@
 
 :root {
     --bg-primary: #0a0a0c;
-    --bg-secondary: #141418;
-    --accent-primary: #ff3e3e; /* Racing Red */
-    --accent-secondary: #00d2ff; /* Electric Blue */
+    --bg-secondary: #0e0e11;
+    --accent-primary: #ff3e3e;
+    /* Racing Red */
+    --accent-secondary: #00d2ff;
+    /* Electric Blue */
+    --accent-tertiary: #ffcc00;
+    /* Racing Yellow */
     --text-primary: #ffffff;
     --text-secondary: #a0a0a8;
-    --glass-bg: rgba(255, 255, 255, 0.05);
-    --glass-border: rgba(255, 255, 255, 0.1);
-    --transition-fast: 0.2s ease;
-    --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+    --glass-bg: rgba(255, 255, 255, 0.03);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 * {
@@ -27,7 +31,9 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-weight: 800;
     letter-spacing: -0.02em;
     line-height: 1.1;
@@ -124,6 +130,27 @@ img {
 .reveal.active {
     opacity: 1;
     transform: translateY(0);
+}
+
+/* Micro-animations */
+.glass-card img {
+    transition: var(--transition-slow);
+}
+
+.glass-card:hover img {
+    transform: scale(1.05);
+}
+
+#memories img:hover {
+    transform: scale(1.02) rotate(1deg);
+}
+
+#family img {
+    transition: filter 0.5s ease;
+}
+
+#family:hover img {
+    filter: saturate(1.2) brightness(1.1);
 }
 
 /* Custom Scrollbar */
