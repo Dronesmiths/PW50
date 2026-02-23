@@ -1,0 +1,4 @@
+.aws-deploy-info
+cloudfront-config.json
+.DS_Store
+*.log
