@@ -1,0 +1,36 @@
+{
+    "pillars": [
+        {
+            "name": "Performance & Customization",
+            "slug": "performance-upgrades",
+            "url": "/blog/performance-upgrades/",
+            "target_support_pages": 40,
+            "support_page_types": [
+                "how-to",
+                "faq",
+                "checklist"
+            ]
+        },
+        {
+            "name": "Family Adventure & Training",
+            "slug": "family-adventure",
+            "url": "/blog/family-adventure/",
+            "target_support_pages": 40,
+            "support_page_types": [
+                "guide",
+                "checklist",
+                "faq"
+            ]
+        },
+        {
+            "name": "PW50 Maintenance & Safety",
+            "slug": "maintenance-safety",
+            "url": "/blog/maintenance-safety/",
+            "target_support_pages": 40,
+            "support_page_types": [
+                "checklist",
+                "how-to"
+            ]
+        }
+    ]
+}

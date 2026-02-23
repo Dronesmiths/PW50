@@ -1,0 +1,24 @@
+{
+  "company_name": "PW50WORKS",
+  "domain": "https://d3hpz6cm52d433.cloudfront.net",
+  "brand_tone": "vibrant, adventurous, family-focused, professional racing",
+  "primary_location": "Global",
+  "services": [
+    "PW50 Performance Parts",
+    "Motocross Safety Gear",
+    "Custom Racing Upgrades"
+  ],
+  "unique_value_props": [
+    "Precision engineering for youth riders",
+    "Built for first memories",
+    "Durable racing-grade materials"
+  ],
+  "primary_cta": {
+    "label": "Browse Parts",
+    "url": "/#parts"
+  },
+  "secondary_cta": {
+    "label": "Start Adventure",
+    "url": "/#memories"
+  }
+}

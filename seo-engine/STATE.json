@@ -1,0 +1,17 @@
+{
+    "weekly_focus_slug": "performance-upgrades",
+    "daily_limit": 1,
+    "rotation_slugs": [
+        "performance-upgrades",
+        "family-adventure",
+        "maintenance-safety"
+    ],
+    "support_counts": {
+        "performance-upgrades": 1,
+        "family-adventure": 0,
+        "maintenance-safety": 0
+    },
+    "last_run": "2026-02-23",
+    "rotation_mode": "manual",
+    "rotation_rule": "rotate after 7 days or 10 support pages"
+}
